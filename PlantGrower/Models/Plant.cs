@@ -10,6 +10,10 @@
         public string Id { get; set; }
 
         [BsonElement("name")]
+        [BsonRequired]        
         public string Name { get; set; }
+        
+        [BsonElement("germinationDays")]
+        public double GerminationDays { get; set; }
     }
 }
