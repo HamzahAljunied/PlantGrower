@@ -52,6 +52,14 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.11.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
             }
           },
           "imports": [
